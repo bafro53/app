@@ -4,6 +4,7 @@ st.title ("hellllooooo")
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 # Charger les données
 data = pd.read_csv('Bakery sales.csv')
