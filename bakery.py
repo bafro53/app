@@ -7,7 +7,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Charger les données
-data = pd.read_csv('')
+data = pd.read_csv('Bakery sales.csv')
 data.drop(columns=["Unnamed: 0"], inplace=True)
 
 # Afficher les données
